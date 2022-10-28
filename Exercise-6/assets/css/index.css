@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 100%;
+}
+div {
+    font-size: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro{
+    font-size: 18;
+    color: ffc700;
+    background-color:18354a;
+    border: 1px solid #d3d3d3;
+    padding: 48px;
+    margin:32 0;
+    flex-basis: 900px;
+    flex: 1;
+}
+
+.item{ 
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+}

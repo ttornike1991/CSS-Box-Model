@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:25rem;
+    height: 18.75rem;    
+}
+.feedback{
+    flex:1;
+}
+.text1{
+    flex:1;
+}
